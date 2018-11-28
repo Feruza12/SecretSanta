@@ -4,15 +4,19 @@
   src: url("../fonts/Pacificio/Pacifico-Regular.woff");
   src: url("../fonts/Pacificio/Pacifico-Regular.woff2");
 }
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../fonts/Comfortaa/Comfortaa-Regular.ttf");
+  src: url("../fonts/Comfortaa/Comfortaa-Regular.woff");
+  src: url("../fonts/Comfortaa/Comfortaa-Regular.woff2");
+}
+
 *{
 	margin: 0;
 	padding: 0;
 }
-body{
-	font-family: 'Raleway', sans-serif;
-}
 .bg{
-	background:linear-gradient(rgba(20,20,20,0.7),rgba(20,20,20,0.7)), url("../gallery/bg.jpg") ;
+	background:linear-gradient(rgba(20,20,20,0.8),rgba(20,20,20,0.8)), url("../gallery/bg.jpg") ;
 	width: 100%;
 	min-height: 100vh; 
 	-webkit-background-size: cover;
@@ -21,6 +25,9 @@ body{
 }
 .logo{
 	margin: auto;
+}
+.logo img{
+	margin-top: 10px;
 }
 .form{
 	background: white;
@@ -37,15 +44,18 @@ body{
 	border-radius: 17px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 	outline: none;
-	/*margin-bottom: 15px;*/
+	cursor: pointer;
 }
 p{
 	color: white;
-	margin-top: 120px;
+	margin-top: 10px;
 	text-align: center;
+	font-family: "Comfortaa";
 }
 h1{
+	margin-top: 10px;
 	color: white;
+	/*font-size: 1.4em;*/
 	font-family: "Pacificio",  sans-serif;
 	text-align: center;
 }
@@ -57,33 +67,10 @@ h1{
 	border-bottom: 2px #EC000E solid; 
 	outline: none!important;
 }
-
-/*.form-control-placeholder {
-  position: absolute;
-  top: 0;
-  padding: 7px 0 0 13px;
-  transition: all 200ms;
-  opacity: 0.5;
-}
-.form-control:focus + .form-control-placeholder {
-  font-size: 75%;
-  transform: translate3d(0, -100%, 0);
-  opacity: 1;
-}	
-.form-control:focus + .form-control-placeholder,
-.form-control:valid + .form-control-placeholder {
-  font-size: 75%;
-  transform: translate3d(0, -100%, 0);
-  opacity: 1;
-}*/
-.margin{
-	margin-top: 10vh;
-}
 .text{
-	margin-top: 35px;
-	margin-bottom: 0;
-	font-weight: bold;
-	color: #FF522A;
-	text-align: center;
-
+	font-weight: 800;
+	margin-top: 50px;
+}
+.margin{
+	margin-top: 15vh;
 }
